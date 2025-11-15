@@ -10,4 +10,42 @@ h1 {
   color: #333;
 }
 
+#listaUsuarios {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
 
+#listaUsuarios>li {
+    width: 400px;
+    height: 150px;
+    background-color: white;
+    padding: 10px;
+}
+
+#listaUsuarios>li div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#listaUsuarios>li div ul {
+    border: 1px solid black;
+    padding: 5px;
+    width: 100%;
+    margin-right: 5px;
+}
+
+#listaUsuarios>li>ul {
+    padding-top: 5px;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#listaUsuarios img {
+    width: 100px;
+}
